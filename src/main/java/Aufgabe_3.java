@@ -4,12 +4,12 @@ public class Aufgabe_3 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Bitte Sekunden angeben: ");
         final int Sekunden = scanner.nextInt();
-        final int tage = (Sekunden / 86400);
-        int tagerest = Sekunden % 86400;
-        final int stunden = tagerest / 3600;
-        int stundenrest = tagerest % 3600;
-        final int minuten = stundenrest / 60;
-        final int restSekunden = stundenrest % 60;
-        System.out.println(tage+ " Tage " + stunden + " Stunden " + minuten+ " Minuten und " + restSekunden + " Sekunden");
+        final int Tage = (Sekunden / 86400);
+        int tageRest = Sekunden % 86400;
+        final int Stunden = tageRest / 3600;
+        int stundenRest = tageRest % 3600;
+        final int Minuten = stundenRest / 60;
+        final int restSekunden = stundenRest % 60;
+        System.out.println(Tage+ " Tage " + Stunden + " Stunden " + Minuten+ " Minuten und " + restSekunden + " Sekunden");
     }
 }
